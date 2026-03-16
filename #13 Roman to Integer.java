@@ -54,7 +54,7 @@ Constraints:
 import java.util.*;
 class Solution {
     public int romanToInt(String s) {
-        //My strat is to iterate backwards down s and assine it to value,
+        //My strategy is to iterate backwards down s and assine it to value,
         //add value to total,
         //if value is ever less than prev value subtract value instead
         //"MXLVIII" = 1048
@@ -63,7 +63,7 @@ class Solution {
         //Third Value = i, total = 3;
         //4th value = V, total = 8
         //5th value = L, total = 58
-        //6th value = x, total = 48;  this is because x is a lower value than L so you subtract rather than add
+        //6th value = x, total = 48;  this is because X is a lower value than L so you subtract rather than add
         //7th value = M, total = 1048;
         //This answer assumes that formatting is conventional for the numerals
 
